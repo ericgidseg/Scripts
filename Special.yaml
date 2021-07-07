@@ -8,3 +8,4 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,dellcdn.com
   - DOMAIN-SUFFIX,dell.com
+  - DOMAIN-KEYWORD,dell

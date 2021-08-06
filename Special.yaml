@@ -6,7 +6,8 @@ payload:
   - DOMAIN-SUFFIX,dmhy.anoneko.com
   - DOMAIN-SUFFIX,dellcdn.com
   - DOMAIN-SUFFIX,dell.com
+  - DOMAIN-SUFFIX,pt.btschool.club
   - DOMAIN-KEYWORD,dell
   - DOMAIN-KEYWORD,dellinc
-  - DOMAIN-KEYWORD,pt.btschool.club
   - DOMAIN-KEYWORD,cctv
+  - DOMAIN-KEYWORD,btschool

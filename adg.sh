@@ -1,7 +1,7 @@
 #Build by lone-wind
 #默认容器路径
 default_path () {
-    save_path=/opt/docker
+    save_path=/overlay
 }
 #功能选择
 work_choose () {

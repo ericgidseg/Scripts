@@ -17,7 +17,7 @@ ISENABLE=`cat /sys/class/pwm/pwmchip0/pwm0/enable`
 if [ $ISENABLE -eq 1 ]; then
     echo -n 0 > /sys/class/pwm/pwmchip0/pwm0/enable
 fi
-echo -n 46000 > /sys/class/pwm/pwmchip0/pwm0/period
+echo -n 48000 > /sys/class/pwm/pwmchip0/pwm0/period
 echo -n 1 > /sys/class/pwm/pwmchip0/pwm0/enable
 
 # max speed run 5s

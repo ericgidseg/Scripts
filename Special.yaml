@@ -11,4 +11,5 @@ payload:
   - DOMAIN-KEYWORD,dellinc
   - DOMAIN-KEYWORD,cctv
   - DOMAIN-KEYWORD,btschool
-
+  - DOMAIN-SUFFIX,my.frantech.ca
+  - DOMAIN-SUFFIX,buyvm.net

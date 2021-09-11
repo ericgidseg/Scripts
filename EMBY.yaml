@@ -1,4 +1,5 @@
 payload:
+  - PROCESS-NAME,emby
   - DOMAIN,pornemby.club
   - DOMAIN,sp.odysseyplus.site
   - DOMAIN,cf1.jmsooo.com

@@ -6,10 +6,10 @@ echo 1 > /sys/class/pwm/pwmchip0/pwm0/enable
 while true 
 do         
 temp=$(cat /sys/class/thermal/thermal_zone0/temp)         
-if [ $temp -gt 51000 ]; 
+if [ $temp -gt 50000 ]; 
 then                   #温度可改                 
 echo 100 > /sys/class/pwm/pwmchip0/pwm0/duty_cycle;
-elif  [ $temp -gt 46000 ];
+elif  [ $temp -gt 43000 ];
 then
 echo 45000 > /sys/class/pwm/pwmchip0/pwm0/duty_cycle;
 else

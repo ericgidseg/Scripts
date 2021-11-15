@@ -1,9 +1,7 @@
 payload:
   - PROCESS-NAME,emby
   - DOMAIN-SUFFIX,pornemby.club
-  - DOMAIN-SUFFIX,ru.odysseyplus.site
   - DOMAIN-SUFFIX,cf1.jmsooo.com
   - DOMAIN-SUFFIX,sp.odysseyplus.site
   - DOMAIN-SUFFIX,cf.odysseyplus.site
-  - DOMAIN-SUFFIX,sg.odysseyplus.site
-  - DOMAIN-SUFFIX,hkzf.908600.xyz
+

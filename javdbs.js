@@ -1,5 +1,3 @@
-*/
-
 let obj = JSON.parse($response.body);
 obj = {
   "success" : 1,

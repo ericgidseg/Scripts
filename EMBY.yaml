@@ -2,6 +2,6 @@ payload:
   - PROCESS-NAME,emby
   - DOMAIN-KEYWORD,emby
   - DOMAIN-KEYWORD,jmsooo
-  - DOMAIN-SUFFIX,sp.odysseyplus.site
   - DOMAIN-SUFFIX,cf.odysseyplus.site
   - DOMAIN-SUFFIX,cf.jmsooo.com
+  - DOMAIN-SUFFIX,us.odysseyplus.site

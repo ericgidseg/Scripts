@@ -1,4 +1,4 @@
- HOST-KEYWORD, emby,Emby
- HOST, sp.odysseyplus.site,Emby
- HOST, cf.jmsooo.com,Emby
- HOST, cf.odysseyplus.site,Emby
+ DOMAIN-KEYWORD, emby
+ DOMAIN, sp.odysseyplus.site
+ DOMAIN, cf.jmsooo.com
+ DOMAIN, cf.odysseyplus.site

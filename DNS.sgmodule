@@ -58,32 +58,6 @@ networking.apple = server:https://doh.dns.apple.com/dns-query // Apple
 *.apple.com = server:https://doh.dns.apple.com/dns-query // Apple.com
 *.icloud.com = server:https://doh.dns.apple.com/dns-query // iCloud.com
 
-# > Alphabet
-*.google = server:https://public.global-idt.net/dns-query // Google
-*.google.com = server:https://public.global-idt.net/dns-query // Google
-*.google.com.?? = server:https://public.global-idt.net/dns-query // Google
-# *.goog = server:https://public.global-idt.net/dns-query // Google sites
-*.gstatic.com = server:https://public.global-idt.net/dns-query // Google 静态资源
-*.ggpht.com = server:https://public.global-idt.net/dns-query // Google Photos
-*.googleusercontent.com = server:https://public.global-idt.net/dns-query // Google 用户上传数据
-*.googleapis.com = server:https://public.global-idt.net/dns-query // Google APIs
-*.1e100.net = server:https://public.global-idt.net/dns-query // Google backbone
-*.youtube = server:https://public.global-idt.net/dns-query // Youtube sites
-*.youtube.com = server:https://public.global-idt.net/dns-query // Youtube
-*.ytimg.com = server:https://public.global-idt.net/dns-query // Youtube 图片
-*.googlevideo.com = server:https://public.global-idt.net/dns-query // Youtube Video
-*.gvt?.com = server:https://public.global-idt.net/dns-query // Google Video Thumbnails
-*.recaptcha.net = server:https://public.global-idt.net/dns-query // reCaptcha
-*.gmail.com = server:https://public.global-idt.net/dns-query // Gmail
-*.googlesource.com = server:https://public.global-idt.net/dns-query // Google Source
-*.googleadservices.com = server:https://public.global-idt.net/dns-query // Google AD Services
-*.doubleclick.net = server:https://public.global-idt.net/dns-query // DoubleClick
-*.adsense.com = server:https://public.global-idt.net/dns-query // AdSense
-*.adsensecustomsearchads.com = server:https://public.global-idt.net/dns-query // AdSense Custom Search Ads
-*.adsenseformobileapps.com = server:https://public.global-idt.net/dns-query // AdSense for mobile apps
-*.gle = server:https://public.global-idt.net/dns-query // Google shortened URLs
-goo.gl = server:https://public.global-idt.net/dns-query // Google URL Shortener
-
 # > Cloudflare
 *.cloudflare.com = server:https://cloudflare-dns.com/dns-query // Cloudflare
 *.cloudflarestream.com = server:https://cloudflare-dns.com/dns-query // Cloudflare Stream

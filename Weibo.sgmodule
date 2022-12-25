@@ -1,0 +1,12 @@
+#!name= 微博国际版净化
+#!desc=让你更加愉悦的刷微博
+
+
+[MITM]
+hostname = %APPEND% *api.weibo*, *uve.weibo.com
+
+[Script]
+微博国际版_屏蔽开屏广告@ddgksf2013 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+微博国际版_屏蔽sdkad@ddgksf2013 = type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),requires-body=1,binary-body-mode=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+微博国际版_趋势顶部Card去广告@ddgksf2013 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+微博国际版_屏蔽用户VIP栏@ddgksf2013 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js

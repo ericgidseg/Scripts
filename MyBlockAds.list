@@ -46,7 +46,8 @@ HOST-SUFFIX, mall.icbc.com.cn, REJECT
 HOST, dns.jd.com, REJECT
 IP-CIDR, 101.124.19.122/32, REJECT
 IP6-CIDR, 2402:db40:5100:1011::5/128, REJECT
-
+# JavDB
+HOST, api.liquidlink.cn, REJECT
 # ======= M ======= #
 # 美团
 HOST, maplocatesdksnapshot.d.meituan.net, REJECT
